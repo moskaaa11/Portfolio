@@ -3,8 +3,18 @@
     background: #f0f2f5;
     width: 100vw;
     height: 100vh;
+    overflow: scroll;
 
     .homeContainer {
         flex: 6;
+    }
+
+    .header, .main {
+
+        &__container {
+            display: flex;
+            gap: 20px;
+            padding: 16px;
+        }
     }
 }
