@@ -36,6 +36,11 @@
                 font-size: 12px;
                 border-bottom: 1px solid gray;
                 cursor: pointer;
+
+                &:hover {
+                    background: rgba(255, 207, 207, 0.527);
+                    border-radius: 10px;
+                }
             }
 
             .percent {

@@ -5,6 +5,7 @@ import Navbar from '../../components/navbar/Navbar'
 import Widjet from '../../components/widget/Widjet'
 import Chart  from '../../components/chart/Chart'
 import Featured from '../../components/featured/Featured'
+import List from '../../components/table/Table'
 
 const Home = () => {
   return (
@@ -22,7 +23,12 @@ const Home = () => {
             <Featured/>
             <Chart/>
           </main>
-
+          <footer className='footer footer__container'>
+            <div className="box">
+              <h2 className='title'>Lates transaction</h2>
+              <List/>
+            </div>
+          </footer>
         </div>
     </div>
   )

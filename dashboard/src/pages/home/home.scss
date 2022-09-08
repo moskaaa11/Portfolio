@@ -9,12 +9,28 @@
         flex: 6;
     }
 
-    .header, .main {
+    .header, .main, .footer {
 
         &__container {
             display: flex;
             gap: 20px;
             padding: 16px;
+        }
+
+        .box {
+            -webkit-box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+            -moz-box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+            box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+            border-radius: 5px;
+            padding: 10px;
+            width: 100%;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 24px;
+            color: rgb(161, 157, 157);
+            margin-bottom: 10px;
         }
     }
 }

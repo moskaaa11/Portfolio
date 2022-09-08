@@ -82,6 +82,11 @@
             cursor: pointer;
             margin: 5px;
 
+            &:hover {
+                width: 22px;
+                height: 22px;
+            }
+
 
             &:nth-child(1) {
                 background: whitesmoke;
