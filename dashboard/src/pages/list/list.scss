@@ -1,0 +1,11 @@
+.list {
+    display: flex;
+    background: #f0f2f5;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+
+    .listContainer {
+        flex: 6;
+    }
+}

@@ -12,4 +12,24 @@
             height: 40px;
         }
     }
+
+    .status {
+        padding: 5px;
+        border-radius: 5px;
+
+        &.active {
+            background: rgba(0, 128, 0, 0.103) ;
+            color:green;
+        }
+
+        &.pending {
+            background: rgba(218, 165, 32, 0.103) ;
+            color:goldenrod;
+        }
+
+        &.passive {
+            background: rgba(220, 20, 60, 0.103);
+            color:crimson;
+        }
+    }
 }

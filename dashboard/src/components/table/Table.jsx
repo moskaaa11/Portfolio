@@ -16,7 +16,7 @@ const List = () => {
             img:
               "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             stock: 123123,
-            status: "active",
+            status: "passive",
             price: "$120.00",
           },
           {
@@ -25,7 +25,7 @@ const List = () => {
             img:
               "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             stock: 456123,
-            status: "active",
+            status: "pending",
             price: "$120.00",
           },
           {
@@ -34,7 +34,7 @@ const List = () => {
             img:
               "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             stock: 378123,
-            status: "active",
+            status: "passive",
             price: "$120.00",
           },
           {
@@ -43,7 +43,7 @@ const List = () => {
             img:
               "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             stock: 147123,
-            status: "active",
+            status: "pending",
             price: "$120.00",
           },
           {
@@ -61,7 +61,7 @@ const List = () => {
             img:
               "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             stock: 260123,
-            status: "active",
+            status: "passive",
             price: "$120.00",
           },
           {
@@ -70,7 +70,7 @@ const List = () => {
             img:
               "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
             stock: 187123,
-            status: "active",
+            status: "pending",
             price: "$120.00",
           },
     ];
@@ -99,7 +99,11 @@ const List = () => {
                 </div>
               </TableCell>
               <TableCell className='tableCell'>{row.stock}</TableCell>
-              <TableCell className='tableCell'>{row.status}</TableCell>
+              <TableCell className='tableCell'>
+                <span className={`status ${row.status}`}>
+                  {row.status}
+                </span>
+                </TableCell>
               <TableCell className='tableCell'>{row.price}</TableCell>
             </TableRow>
           ))}
