@@ -8,12 +8,11 @@ const DataTable = () => {
         {
             field: 'action' ,
             headerName: 'Action',
-            width: 200,
+            flex: 2,
             renderCell: () => {
                 return (
                     <div className='cellAction'>
                         <div className='viewButton'>View</div>
-                        <div className='deleteButton'>Delete</div>
                     </div>
                 )
             }

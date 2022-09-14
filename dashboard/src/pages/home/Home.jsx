@@ -21,7 +21,10 @@ const Home = () => {
           </header>
           <main className='main main__container'>
             <Featured/>
-            <Chart/>
+            <Chart
+            aspect={2/1}
+            title='Last year sales'
+            />
           </main>
           <footer className='footer footer__container'>
             <div className="box">

@@ -1,6 +1,6 @@
 export const userColumns =[
-    { field: 'id', headerName: 'ID', width: 70 },
-    {field: 'users', headerName:'User', width: 230, renderCell:(params) =>{
+    { field: 'id', headerName: 'ID', flex:1 },
+    {field: 'users', headerName:'User', flex:5, renderCell:(params) =>{
             return (
                 <div className="cellWithImg">
                     <img className="cellImg" src={params.row.avatar} alt="avatar"/>
@@ -9,9 +9,9 @@ export const userColumns =[
             )
         }
     },
-    {field:'email' , headerName: 'Email', width: 230,},
-    {field:'age' , headerName: 'Age', width: 100,},
-    {field:'status' , headerName: 'Status', width: 160, renderCell : (params) =>{
+    {field:'email' , headerName: 'Email', flex:5},
+    {field:'age' , headerName: 'Age', flex:1},
+    {field:'status' , headerName: 'Status', flex:2, renderCell : (params) =>{
             return (
                 <div className={`cellWithStatus ${params.row.status}`}>
                     {params.row.status}

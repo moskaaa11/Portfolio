@@ -1,6 +1,9 @@
 .datatable {
     height: 100%;
     padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 
     .cellWithImg {
         display: flex;
@@ -36,9 +39,7 @@
     }
 
     .cellAction  {
-        display: flex;
-        align-items: center;
-        gap: 15px;
+        
 
         .viewButton {
             padding: 2px 5px;
@@ -48,12 +49,6 @@
             cursor:pointer;
         }
 
-        .deleteButton {
-            padding: 2px 5px;
-            border-radius: 5px;
-            color: rgb(247, 164, 164);
-            border: 1px dotted rgba(0, 0, 139, 0.116);
-            cursor:pointer;
-        }
+      
     }
 }
