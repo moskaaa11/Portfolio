@@ -1,3 +1,5 @@
+import {useContext, useState} from 'react';
+import './style/dark.scss'
 import "./App.scss";
 import Home from "./pages/home/Home";
 import List from  "./pages/list/List";
@@ -5,10 +7,15 @@ import LogIn from "./pages/logIn/LogIn";
 import New from "./pages/new/New";
 import Single from "./pages/single/Single";
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
+import {DarkModeContex} from './context/darkModeContext'
+ 
 
 function App() {
+
+  const  {darkMode} = useContext (DarkModeContex)
+
   return (
-    <div className="App">
+    <div className={ darkMode ? 'app dark' : 'app'}>
       <BrowserRouter>
         <Routes>
          <Route path="/">

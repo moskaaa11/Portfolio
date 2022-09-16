@@ -1,0 +1,53 @@
+.app.dark {
+    background: #222;
+    color: aliceblue;
+
+    .counter {
+        color: #222;
+    }
+
+    .chartGrid {
+        color: aliceblue;
+    }
+
+    .table {
+        background: #222;
+
+        .tableCell {
+            color: aliceblue;
+        }
+    }
+
+    .sidebar {
+        background: rgb(218, 97, 97);
+
+        li {
+
+            &:hover {
+                background: #222;
+            }
+        }
+    }
+
+    .datatable {
+        .datagrid {
+            color: aliceblue;
+            
+            .viewButton {
+                border: 1px dotted aliceblue;
+            }
+        }
+        
+    }
+
+    .single {
+
+        .editButton {
+            color: aliceblue;
+        }
+    }
+
+    input {
+        background-color: transparent;
+    }
+}

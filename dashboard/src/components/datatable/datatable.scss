@@ -3,7 +3,38 @@
     padding: 16px;
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    flex-wrap: wrap;
+
+    .datatableTitle {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-self: flex-end;
+        margin-bottom: 10px;
+
+        .title {
+            font-weight: bold;
+            font-size: 14px;
+            color: rgb(161, 157, 157);
+        }
+
+        .button {
+            width: 100px;
+            height: 30px;
+            text-decoration: none;
+            background: rgba(248, 192, 192, 0.678);
+            border-radius: 5px;
+            border: 1px solid rgb(218, 97, 97, 0.5);
+
+            .buttonText {
+                text-align: center;
+                padding: 5px;
+                color: #FFFFFF;
+            }
+
+           
+        }
+    }
 
     .cellWithImg {
         display: flex;
@@ -40,12 +71,15 @@
 
     .cellAction  {
         
+        .link {
+            text-decoration: none;
+        }
 
         .viewButton {
             padding: 2px 5px;
             border-radius: 5px;
             color: rgb(164, 190, 247);
-            border: 1px dotted rgba(0, 0, 139, 0.116);
+            border: 1px dotted rgba(0, 0, 139, 0.411);
             cursor:pointer;
         }
 
