@@ -6,7 +6,8 @@ import ListUsers from  "./pages/list/ListUsers";
 import ListProducts from  "./pages/list/ListProducts";
 import ListOrders from  "./pages/list/ListOrders";
 import ListDelivery from  "./pages/list/ListDelivery";
-import Stats from "./pages/stats/Stats"
+import Stats from "./pages/stats/Stats";
+import Notes from "./pages/notes/Notes";
 import LogIn from "./pages/logIn/LogIn";
 import New from "./pages/new/New";
 import Single from "./pages/single/Single";
@@ -41,6 +42,9 @@ function App() {
           </Route>
           <Route path="stats">
             <Route index element={<Stats/>}/>
+          </Route>
+          <Route path="notes">
+            <Route index element={<Notes/>}/>
           </Route>
          </Route>
         </Routes>

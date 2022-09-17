@@ -1,5 +1,5 @@
 import './table.scss'
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
+import { DataGrid} from '@mui/x-data-grid';
 import {deliveryColumns, deliveryRows} from "./data.js"
 
 const DeliveryTable = () => {

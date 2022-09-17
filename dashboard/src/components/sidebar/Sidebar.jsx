@@ -65,10 +65,12 @@ const Sidebar = () => {
                     <span>Stats</span>
                 </li>
                 </Link>
+                <Link to='/notes' className="link">
                 <li>
                     <NotificationsNoneIcon className="icon"/>
                     <span>Notifications</span>
                 </li>
+                </Link>
                 <p className="title">SERVICE</p>
                 <li>
                     <SettingsIcon className="icon"/>

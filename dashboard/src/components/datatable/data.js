@@ -467,7 +467,7 @@ export const deliveryRows = [
     manager: "Jhon",
     status: "done",
     company: "NovaPochta",
-    tracking: "4535276564",
+    tracking: 4535276564,
   },
   {
     id: 9,
@@ -477,7 +477,7 @@ export const deliveryRows = [
     manager: "Kettie",
     status: "done",
     company: "NovaPochta",
-    tracking: "9865245352",
+    tracking: 9865245352,
   },
   {
     id: 10,
@@ -487,6 +487,6 @@ export const deliveryRows = [
     manager: "Jhon",
     status: "done",
     company: "NovaPochta",
-    tracking: "7836445352",
+    tracking: 7836445352,
   },
 ];

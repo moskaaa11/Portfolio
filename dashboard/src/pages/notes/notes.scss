@@ -1,0 +1,92 @@
+.notes {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+
+    .notesContainer{
+        flex: 6;
+        padding: 16px;
+    }
+
+    .footerBox {
+        -webkit-box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+        -moz-box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+        box-shadow: -12px 14px 18px 8px rgba(107,107,107,1);
+        border-radius: 5px;
+        margin: 16px;
+        height: 65%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .headerBox {
+        -webkit-box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+        -moz-box-shadow: -12px 14px 25px 8px rgba(107,107,107,1);
+        box-shadow: -12px 14px 18px 8px rgba(107,107,107,1);
+        border-radius: 5px;
+        margin: 16px;
+
+        .notesTitle {
+            text-align: center;
+            font-size: 26px;
+            color: rgb(161, 157, 157);
+            padding: 10px;
+        }
+
+        .notesBox {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p{
+                margin-bottom: 20px;
+            }
+
+            .notesWarnings {
+                display: flex;
+                justify-content: space-around;
+                gap: 20px;
+                margin-bottom: 15px;
+
+                .normall {
+                text-align: center;
+                padding: 5px;
+                border-radius: 5px;
+                width: fit-content;
+                background: rgba(0, 128, 0, 0.103) ;
+                color:green;
+            }
+
+                .warnings {
+                text-align: center;
+                padding: 5px;
+                border-radius: 5px;
+                width: fit-content;
+                background: rgba(218, 165, 32, 0.103) ;
+                color:goldenrod;
+            }
+
+                .allarm {
+                text-align: center;
+                padding: 5px;
+                border-radius: 5px;
+                width: fit-content;
+                background: rgba(220, 20, 60, 0.103);
+                color:crimson;
+            }
+            }
+
+            
+
+
+        }
+
+
+        
+
+    }
+
+    
+}

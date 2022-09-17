@@ -1,5 +1,5 @@
 import './table.scss'
-import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
+import { DataGrid} from '@mui/x-data-grid';
 import {userColumns, userRows} from "./data.js"
 import {Link} from "react-router-dom"
 
