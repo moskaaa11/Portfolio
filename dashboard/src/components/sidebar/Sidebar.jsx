@@ -40,24 +40,31 @@ const Sidebar = () => {
                         <span>Users</span>
                     </li>
                 </Link>
-                
-                <li>
-                    <InventoryIcon className="icon"/>
-                    <span>Products</span>
-                </li>
-                <li>
-                    <DvrIcon className="icon"/>
-                    <span>Orders</span>
-                </li>
+                <Link to='/products' className="link">
+                    <li>
+                        <InventoryIcon className="icon"/>
+                        <span>Products</span>
+                    </li>
+                </Link>
+                <Link to='/orders' className="link">
+                    <li>
+                        <DvrIcon className="icon"/>
+                        <span>Orders</span>
+                    </li>
+                </Link>
+                <Link to='/delivery' className="link">  
                 <li>
                     <LocalShippingIcon className="icon"/>
                     <span>Delivery</span>
                 </li>
+                </Link>
                 <p className="title">LINKS</p>
+                <Link to='/stats' className="link">
                 <li>
                     <StackedLineChartIcon className="icon"/>
                     <span>Stats</span>
                 </li>
+                </Link>
                 <li>
                     <NotificationsNoneIcon className="icon"/>
                     <span>Notifications</span>

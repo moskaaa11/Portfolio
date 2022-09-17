@@ -58,7 +58,22 @@
             color:green;
         }
 
+        &.available {
+            background: rgba(0, 128, 0, 0.103) ;
+            color:green;
+        }
+
+        &.done {
+            background: rgba(0, 128, 0, 0.103) ;
+            color:green;
+        }
+
         &.pending {
+            background: rgba(218, 165, 32, 0.103) ;
+            color:goldenrod;
+        }
+
+        &.on-road {
             background: rgba(218, 165, 32, 0.103) ;
             color:goldenrod;
         }
@@ -67,6 +82,17 @@
             background: rgba(220, 20, 60, 0.103);
             color:crimson;
         }
+
+        &.none {
+            background: rgba(220, 20, 60, 0.103);
+            color:crimson;
+        }
+
+        &.canceled {
+            background: rgba(220, 20, 60, 0.103);
+            color:crimson;
+        }
+        
     }
 
     .cellAction  {

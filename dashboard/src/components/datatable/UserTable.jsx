@@ -1,9 +1,9 @@
-import './datatable.scss'
+import './table.scss'
 import { DataGrid, GridColDef, GridValueGetterParams } from '@mui/x-data-grid';
 import {userColumns, userRows} from "./data.js"
 import {Link} from "react-router-dom"
 
-const DataTable = () => {
+const UserTable = () => {
 
     const actionColumn = [
         {
@@ -43,4 +43,4 @@ const DataTable = () => {
   )
 }
 
-export default DataTable
+export default UserTable

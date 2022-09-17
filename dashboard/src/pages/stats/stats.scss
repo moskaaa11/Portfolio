@@ -1,0 +1,11 @@
+.stats {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    overflow: scroll;
+
+    .statsContainer{
+        flex: 6;
+        padding: 16px;
+    }
+}
