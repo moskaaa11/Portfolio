@@ -7,7 +7,6 @@ import DvrIcon from '@mui/icons-material/Dvr';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import StackedLineChartIcon from '@mui/icons-material/StackedLineChart';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import SettingsIcon from '@mui/icons-material/Settings';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
 import {Link} from "react-router-dom"
@@ -71,16 +70,6 @@ const Sidebar = () => {
                     <span>Notifications</span>
                 </li>
                 </Link>
-                <p className="title">SERVICE</p>
-                <li>
-                    <SettingsIcon className="icon"/>
-                    <span>Settings</span>
-                </li>
-                <p className="title">USER</p>
-                <li>
-                    <AccountCircleIcon className="icon"/>
-                    <span>Profile</span>
-                </li>
                 <li>
                     <LogoutIcon className="icon"/>
                     <span>Logout</span>

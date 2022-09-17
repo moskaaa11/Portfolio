@@ -1,4 +1,36 @@
 .noteslist {
     height: 100%;
     width: 100%;
+
+    
+    .normall {
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        width: 75px;
+        background: rgba(0, 128, 0, 0.103) ;
+        color:green;
+    }
+
+        .warnings {
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        width: 75px;
+        background: rgba(218, 165, 32, 0.103) ;
+        color:goldenrod;
+    }
+
+        .allarm {
+        text-align: center;
+        padding: 5px;
+        border-radius: 5px;
+        width: 75px;
+        background: rgba(220, 20, 60, 0.103);
+        color:crimson;
+    }
+
+    .datagrid {
+        margin-bottom: 40px;
+    }
 }

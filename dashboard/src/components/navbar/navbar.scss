@@ -25,12 +25,30 @@
             display: flex;
             align-items: center;
             gap: 40px;
-
+            
             .item {
                 display: flex;
                 align-items: center;
                 cursor: pointer;
                 position: relative;
+
+                .datagrid {
+                    display: none;
+                }
+
+                .datagrid.active {
+                    display: block;
+                    position: absolute;
+                    width: 400px;
+                    height: 200px;
+                    bottom: -200px;
+                    right: -100px;
+                }
+
+
+                .link {
+                    color: #222;
+                }
 
                 &:first-child {
                     gap: 10px;
@@ -60,6 +78,17 @@
                     top: -7px;
                     right: -7px;
                 }
+
+                
+
+                    .datagrid.active {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        background-color:aliceblue;
+                    }
+                
+    
 
             }
         }
