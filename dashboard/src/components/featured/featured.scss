@@ -6,6 +6,10 @@
     border-radius: 5px;
     padding: 10px;
 
+    @media (max-width:575px) {
+        max-width: 350px;
+   }
+
     .top {
 
         display: flex;
@@ -31,6 +35,7 @@
         .graph {
             max-width: 200px;
             max-height: 200px;
+            
         }
 
         .title {

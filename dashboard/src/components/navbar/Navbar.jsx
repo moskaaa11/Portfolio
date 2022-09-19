@@ -29,21 +29,21 @@ const Navbar = () => {
         </div>
         <div className="items">
           <div className="item">
-            <LanguageIcon/>
+            <LanguageIcon className="itemIcon"/>
             English
           </div>
           <div className="item" onClick={()=>dispatch({type:"TOGGLE"})}>
-            <DarkModeOutlinedIcon/>
+            <DarkModeOutlinedIcon className="itemIcon"/>
           </div>
           <div className="item">
             <Link to='/notes' className="link">
-              <NotificationsNoneIcon/>
+              <NotificationsNoneIcon className="itemIcon"/>
               <div className="counter">{notesRows.length}</div>
             </Link>
           </div>
           <div className="item">
             <Link to='/notes' className="link">
-              <ChatBubbleOutlineIcon/>
+              <ChatBubbleOutlineIcon className="itemIcon"/>
               <div className="counter">{messageRows.length}</div>
             </Link>
           </div>
@@ -51,7 +51,7 @@ const Navbar = () => {
             <img className="photo" src="https://www.befunky.com/images/prismic/5ddfea42-7377-4bef-9ac4-f3bd407d52ab_landing-photo-to-cartoon-img5.jpeg?auto=avif,webp&format=jpg&width=863" alt="profile_photo" width={30}/>
           </div>
           <div className="item">
-            <SegmentIcon/>
+            <SegmentIcon className="itemIcon"/>
           </div>
         </div>
         

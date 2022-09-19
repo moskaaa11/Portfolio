@@ -6,14 +6,24 @@
 
     .homeContainer {
         flex: 6;
+        padding: 16px;
+
+        @media (max-width:575px) {
+            padding: 0;
+            width: 100vw;
+            height: 100vh;
+       }
+        
     }
 
     .header, .main, .footer {
-
         &__container {
             display: flex;
+            justify-content: space-around;
             gap: 20px;
             padding: 16px;
+            flex-wrap: wrap;
+
         }
 
         .box {
@@ -32,4 +42,12 @@
             margin-bottom: 10px;
         }
     }
+
+    .header {
+        @media (max-width:575px) {
+            display: block;
+       }
+    }
+
+   
 }

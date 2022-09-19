@@ -1,4 +1,4 @@
-import './table.scss'
+import './tableBig.scss'
 import { DataGrid} from '@mui/x-data-grid';
 import {deliveryColumns, deliveryRows} from "./data.js"
 

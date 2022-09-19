@@ -61,8 +61,6 @@ const Chart = ({aspect, title}) => {
       </h2>
       <ResponsiveContainer width="100%" aspect={aspect}>
         <AreaChart
-          width={500}
-          height={400}
           data={data}
           margin={{
             top: 10,

@@ -1,15 +1,29 @@
 .table {
 
+    @media (max-width:575px) {
+        max-width: 350px;
+   }
 
-
+    .tableCell {
+            @media (max-width:575px) {
+                font-size: 5px;
+           }
+        }
     .cellWrapper {
         display: flex;
         align-items: center;
 
+        
+
         .image {
             border-radius: 50px;
-            width: 40px;
-            height: 40px;
+            max-width: 40px;
+            max-height: 40px;
+
+            @media (max-width:575px) {
+                width: 15px;
+                height: 15px;
+           }
         }
     }
 

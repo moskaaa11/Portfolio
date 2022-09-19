@@ -12,6 +12,12 @@
             padding: 16px;
             display: flex;
             gap: 20px;
+            flex-wrap: wrap;
+
+            @media (max-width:575px) {
+                max-width: 320px;
+                padding: 16px;
+           }
 
             .leftBox {
                 flex:1;
@@ -76,6 +82,10 @@
 
             .rightBox {
                 flex: 2;
+
+                @media (max-width:575px) {
+                    max-width: 320px;
+               }
             }
         }
 
@@ -92,6 +102,11 @@
             border-radius: 5px;
             padding: 16px;
             margin: 16px;
+
+            @media (max-width:575px) {
+                padding: 4px;
+                margin: 4px;
+           }
         }
     }
 }

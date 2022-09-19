@@ -5,26 +5,43 @@
     justify-content: space-around;
     flex-wrap: wrap;
 
+    @media (max-width:575px) {
+        padding: 4px;
+   }
+
+   .datagrid {
+
+    @media (max-width:575px) {
+        font-size: 10px;
+         
+   }
+
+   }
+
     .datatableTitle {
         width: 100%;
         display: flex;
         justify-content: space-between;
         align-self: flex-end;
         margin-bottom: 10px;
+    
 
         .title {
             font-weight: bold;
             font-size: 14px;
             color: rgb(161, 157, 157);
+
+            
         }
 
         .button {
-            width: 100px;
-            height: 30px;
+            max-width: 100px;
+            max-height: 30px;
             text-decoration: none;
             background: rgba(248, 192, 192, 0.678);
             border-radius: 5px;
             border: 1px solid rgb(218, 97, 97, 0.5);
+            
 
             .buttonText {
                 text-align: center;
@@ -41,17 +58,26 @@
         align-items: center;
 
         .cellImg {
-            width: 32px;
-            height: 32px;
+            max-width: 32px;
+            max-height: 32px;
             border-radius: 50%;
             object-fit: cover;
             margin-right: 20px;
+
+            @media (max-width:575px) {
+                width: 15px;
+                height: 15px;
+           }
         }
     }
 
     .cellWithStatus {
         padding: 5px;
         border-radius: 5px;
+
+        @media (max-width:575px) {
+            font-size: 7px;
+       }
 
         &.active {
             background: rgba(0, 128, 0, 0.103) ;
@@ -107,6 +133,11 @@
             color: rgb(164, 190, 247);
             border: 1px dotted rgba(0, 0, 139, 0.411);
             cursor:pointer;
+
+            @media (max-width:575px) {
+                width: 10px;
+                font-size: 5px;
+           }
         }
 
       
