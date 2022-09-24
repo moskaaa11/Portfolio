@@ -1,5 +1,5 @@
 import "./navbar.scss"
-import {useContext} from 'react';
+import {useContext, useState} from 'react';
 import SearchIcon from '@mui/icons-material/Search';
 import LanguageIcon from '@mui/icons-material/Language';
 import DarkModeOutlinedIcon from '@mui/icons-material/DarkModeOutlined';
@@ -17,7 +17,7 @@ const Navbar = () => {
 
   const  {dispatch} = useContext (DarkModeContex)
   
-  
+  const [menuActive, setMenuActive] = useState(false)
   
 
   return (

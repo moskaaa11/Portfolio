@@ -18,7 +18,7 @@ const Sidebar = () => {
     const  {dispatch} = useContext (DarkModeContex)
 
   return (
-    <div className="sidebar">
+    <div className="sidebar ">
         <header className="header">
             <span className="logo">Sales board</span>
         </header>

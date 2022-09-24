@@ -10,7 +10,7 @@ import List from '../../components/table/Table'
 const Home = () => {
   return (
     <div className='home'>
-        <Sidebar/>
+        <Sidebar active={active}/>
         <div className='homeContainer'>
           <Navbar/>
           <header className='header header__container'>

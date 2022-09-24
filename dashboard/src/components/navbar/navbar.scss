@@ -7,7 +7,7 @@
         align-items: center;
         justify-content: space-between;
 
-        @media (max-width:575px) {
+        @media (max-width:992px) {
             justify-content: space-around;
         }
 
@@ -23,9 +23,11 @@
                 background: transparent;
                 outline: none;
 
-                @media (max-width:575px) {
+                @media (max-width:992px) {
                     width: 50px;
                 }
+
+                
             }
         }
 
@@ -33,12 +35,20 @@
             display: flex;
             align-items: center;
             gap: 40px;
+            
+            @media (max-width:992px) {
+                gap: 20px;
+            }
 
             @media (max-width:575px) {
                 gap: 10px;
             }
 
             .itemIcon {
+
+                @media (max-width:992px) {
+                    width: 25px;
+                }
 
                 @media (max-width:575px) {
                     width: 15px;
