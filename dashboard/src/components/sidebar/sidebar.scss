@@ -1,12 +1,12 @@
 .sidebarWrapper {
+    position: sticky;
+    top: 16px;
 
     .sidebar {
     background: #222;
     flex: 1;
     border-radius: 15px;
     margin: 16px;
-    position: sticky;
-    top: 16px;
 
         @media (max-width:992px) {
             display: none;
