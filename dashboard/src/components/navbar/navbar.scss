@@ -1,6 +1,7 @@
 .navbar {
     margin: 16px;
     font-size: 14px;
+    position: relative;
 
     .wrapper {
         display: flex;
@@ -71,7 +72,7 @@
                 &:first-child {
                     gap: 10px;
                 }
-                
+
                 .photo {
                     border-radius: 15px;
 
