@@ -71,15 +71,7 @@
                 &:first-child {
                     gap: 10px;
                 }
-
-                &:last-child {
-                    display: none;
-
-                    @media (max-width:992px) {
-                        display: block;
-                    }
-                }
-
+                
                 .photo {
                     border-radius: 15px;
 
