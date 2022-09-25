@@ -1,4 +1,4 @@
-import {useContext, useState} from 'react';
+import {useContext} from 'react';
 import './style/dark.scss'
 import "./App.scss";
 import Home from "./pages/home/Home";
@@ -8,7 +8,6 @@ import ListOrders from  "./pages/list/ListOrders";
 import ListDelivery from  "./pages/list/ListDelivery";
 import Stats from "./pages/stats/Stats";
 import Notes from "./pages/notes/Notes";
-import LogIn from "./pages/logIn/LogIn";
 import New from "./pages/new/New";
 import Single from "./pages/single/Single";
 import { BrowserRouter, Routes, Route, } from "react-router-dom";
@@ -25,7 +24,6 @@ function App() {
         <Routes>
          <Route path="/">
           <Route index element={<Home/>} />
-          <Route path="login" element={<LogIn/>} />
           <Route path="users">
             <Route index element={<ListUsers/>}/>
             <Route path=":userId" element={<Single/>}/>

@@ -3,10 +3,10 @@ import NotesList from '../../components/notesList/NotesList'
 import Sidebar from '../../components/sidebar/Sidebar'
 import './notes.scss'
 
-const Notes = () => {
+const Notes = ({menuActive,setMenuActive}) => {
   return (
     <div className='notes'>
-        <Sidebar/>
+        <Sidebar active={menuActive} setActive={setMenuActive}/>
         <div className="notesContainer">
             <Navbar/>
             <header className='headerBox'>

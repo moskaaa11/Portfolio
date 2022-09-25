@@ -9,7 +9,7 @@ const New = () => {
   const [file, setFile]= useState ('');
   return (
     <div className="new">
-      <Sidebar/>
+      <Sidebar />
       <div className="newContainer">
         <Navbar/>
         <header className="headerContainer">

@@ -8,9 +8,10 @@ import Featured from '../../components/featured/Featured'
 import List from '../../components/table/Table'
 
 const Home = () => {
+
   return (
     <div className='home'>
-        <Sidebar active={active}/>
+        <Sidebar />
         <div className='homeContainer'>
           <Navbar/>
           <header className='header header__container'>

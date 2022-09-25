@@ -1,4 +1,4 @@
-import {useContext} from 'react';
+import {useContext, useState} from 'react';
 import "./sidebar.scss"
 import DashboardIcon from '@mui/icons-material/Dashboard';
 import PeopleIcon from '@mui/icons-material/People';
@@ -7,18 +7,22 @@ import DvrIcon from '@mui/icons-material/Dvr';
 import LocalShippingIcon from '@mui/icons-material/LocalShipping';
 import StackedLineChartIcon from '@mui/icons-material/StackedLineChart';
 import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import LogoutIcon from '@mui/icons-material/Logout';
 import {Link} from "react-router-dom"
 import {DarkModeContex} from '../../context/darkModeContext'
+import SegmentIcon from '@mui/icons-material/Segment';
 
 
 const Sidebar = () => {
 
+    const [open, setOpen]=useState(false);
+
     const  {dispatch} = useContext (DarkModeContex)
 
   return (
-    <div className="sidebar ">
+
+    <div className='sidebarWrapper'>
+    <div className={open ? 'sidebar active' : 'sidebar'}>
         <header className="header">
             <span className="logo">Sales board</span>
         </header>
@@ -74,12 +78,16 @@ const Sidebar = () => {
                     <LogoutIcon className="icon"/>
                     <span>Logout</span>
                 </li>
-            </ul>
+            </ul>   
         </main>
         <footer className="footer">
             <div className="colorOption" onClick={()=>dispatch({type:"LIGHT"})}></div>
             <div className="colorOption" onClick={()=>dispatch({type:"DARK"})}></div>
         </footer>
+        </div>
+        <div className="item" >
+            <SegmentIcon className="itemIcon" onClick={() => setOpen(!open)}/>
+        </div>
     </div>
   )
 }

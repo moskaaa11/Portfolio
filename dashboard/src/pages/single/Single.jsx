@@ -4,10 +4,10 @@ import Navbar from '../../components/navbar/Navbar'
 import Chart from '../../components/chart/Chart'
 import Table from '../../components/table/Table'
 
-const Single = () => {
+const Single = ({menuActive,setMenuActive}) => {
   return (
     <div className="single">
-      <Sidebar/>
+      <Sidebar active={menuActive} setActive={setMenuActive}/>
       <div className="singleContainer">
         <Navbar/>
         <header className="headerContainer">

@@ -6,7 +6,7 @@ import ProductsTable from "../../components/datatable/ProductsTable"
 const ListProducts = () => {
   return (
     <div className="list">
-      <Sidebar/>
+      <Sidebar />
       <div className="listContainer">
         <Navbar/>
         <ProductsTable/>
