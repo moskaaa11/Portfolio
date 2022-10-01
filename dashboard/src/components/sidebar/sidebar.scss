@@ -1,12 +1,13 @@
 .sidebarWrapper {
     flex: 1;
-    position: sticky;
-    top: 16px;
+    position: relative;
+    margin: 10px;
     
     .sidebar {
+    position: fixed;
+    top: 16px;
     background: #222;
     border-radius: 15px;
-    margin: 10px;
 
         @media (max-width:992px) {
             display: none;
@@ -17,10 +18,18 @@
             display: flex;
             padding: 10px 25px;
 
+            @media (max-width:1200px) {
+                padding: 5px 15px;
+            }
+
             .logo {
                 font-size: 25px;
                 font-weight: bold;
                 color: #FFFFFF;
+
+                @media (max-width:1200px) {
+                    font-size: 20px;
+                }
             }
         }
 
@@ -133,8 +142,8 @@
             height: fit-content;
             width: fit-content;
             position: absolute;
-            top: 40px;
-            left: 10px;
+            top: 50px;
+            left: 5%;
             z-index: 100;
             padding: 10px;
         }

@@ -12,27 +12,27 @@ export const messageRows = [
     },
     {
       id: 2,
-      username: "Jon Snow",
-      message: "Could you delliver it to me in pressent box?",
+      username: "Garret Paddins",
+      message: "So, you could send it by NovaPoshta?",
     },
     {
       id: 3,
-      username: "Jon Snow",
-      message: "Could you delliver it to me in pressent box?",
+      username: "Mullen Rysh",
+      message: "Thank you, everything was as I expected",
     },
     {
       id: 4,
-      username: "Jon Snow",
-      message: "Could you delliver it to me in pressent box?",
+      username: "Jerry White",
+      message: "Why you did not say about all yours sales??!!!",
     },
     {
       id: 5,
-      username: "Jon Snow",
-      message: "Could you delliver it to me in pressent box?",
+      username: "Adam Brown",
+      message: "I will wait it tomorow in expected terms!",
     },
     {
       id: 6,
-      username: "Jon Snow",
-      message: "Could you delliver it to me in pressent box?",
+      username: "Joshua Levingstai",
+      message: "DO you have it in black color?",
     },
   ]
