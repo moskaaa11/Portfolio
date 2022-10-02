@@ -24,7 +24,7 @@ export const rows = [
           "https://bgr.com/wp-content/uploads/2021/07/apple-iphone-12-6.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
         stock: 378123,
         status: "passive",
-        price: "$2200.00",
+        price: "$3460.00",
       },
       {
         id: 41236126,
@@ -33,7 +33,7 @@ export const rows = [
           "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
         stock: 147123,
         status: "pending",
-        price: "$820.00",
+        price: "$1450.00",
       },
       {
         id: 51236123,
@@ -60,7 +60,7 @@ export const rows = [
           "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
         stock: 187123,
         status: "pending",
-        price: "$820.00",
+        price: "$1820.00",
       },
       {
         id: 71236261,
@@ -69,6 +69,6 @@ export const rows = [
           "https://media.wired.com/photos/5e9f56f143e5800008514457/1:1/w_1277,h_1277,c_limit/Gear-Feature-Apple_new-iphone-se-white_04152020.jpg",
         stock: 187123,
         status: "pending",
-        price: "$1200.00",
+        price: "$3100.00",
       },
 ];

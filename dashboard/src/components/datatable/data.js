@@ -149,8 +149,8 @@ export const productsRows = [
       "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     amount: 23,
     status: "available",
-    price: "820$",
-    description: "Apple iPhone X",
+    price: "1820$",
+    description: "Apple iPhone X-256Gb",
   },
   {
     id: 2,
@@ -159,88 +159,88 @@ export const productsRows = [
       "https://media.wired.com/photos/5e9f56f143e5800008514457/1:1/w_1277,h_1277,c_limit/Gear-Feature-Apple_new-iphone-se-white_04152020.jpg",
     amount: 13,
     status: "available",
-    price: "1200$",
-    description: "Apple iPhone SE ",
+    price: "3100$",
+    description: "Apple iPhone SE- 256Gb",
   },
   {
     id: 3,
-    products: "Iphone X",
+    products: "Iphone 12",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://bgr.com/wp-content/uploads/2021/07/apple-iphone-12-6.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
     amount: 0,
     status: "none",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "4500$",
+    description: "Apple iPhone 12 – 256Gb",
   },
   {
     id: 4,
-    products: "Iphone X",
+    products: "Apple AirPods",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     amount: 28,
     status: "available",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "420$",
+    description: "Apple AirPods",
   },
   {
     id: 5,
     products: "Iphone X",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     amount: 124,
     status: "available",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "1450$",
+    description: "Apple iPhone X – 128Gb ",
   },
   {
     id: 6,
-    products: "Iphone X",
+    products: "Iphone SE",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://media.wired.com/photos/5e9f56f143e5800008514457/1:1/w_1277,h_1277,c_limit/Gear-Feature-Apple_new-iphone-se-white_04152020.jpg",
     amount: 0,
     status: "none",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "2340$",
+    description: "Apple iPhone SE – 128Gb",
   },
   {
     id: 7,
-    products: "Iphone X",
+    products: "Iphone 12",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://bgr.com/wp-content/uploads/2021/07/apple-iphone-12-6.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
     amount: 76,
     status: "available",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "3460$",
+    description: "Apple iPhone 12 – 128Gb ",
   },
   {
     id: 8,
     products: "Iphone X",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     amount: 0,
     status: "none",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "820$",
+    description: "Apple iPhone X – 64Gb",
   },
   {
     id: 9,
-    products: "Iphone X",
+    products: "Iphone SE",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://media.wired.com/photos/5e9f56f143e5800008514457/1:1/w_1277,h_1277,c_limit/Gear-Feature-Apple_new-iphone-se-white_04152020.jpg",
     amount: 0,
     status: "none",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "1200$",
+    description: "Apple iPhone SE – 64Gb",
   },
   {
     id: 10,
-    products: "Iphone X",
+    products: "Iphone 12",
     avatar:
-      "https://phonesdata.com/files/models/Apple-iPhone-X-518.jpg",
+      "https://bgr.com/wp-content/uploads/2021/07/apple-iphone-12-6.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
     amount: 89,
     status: "available",
-    price: "410$",
-    description: "Apple iPhone X – воплощение лучших инновационных решений ",
+    price: "2200$",
+    description: "Apple iPhone 12 – 64Gb",
   },
 ];
 
@@ -272,48 +272,48 @@ export const ordersColumns =[
 export const ordersRows = [
   {
     id: 1,
-    username: "Jon Snow",
+    username: "John Smith",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     products: "Iphone X",
     status: "on-road",
-    bill: "1230$"
+    bill: "820$"
   },
   {
     id: 2,
-    username: "Jon Snow",
+    username: "Mike Duglas",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    products: "Iphone X",
+      "https://media.wired.com/photos/5e9f56f143e5800008514457/1:1/w_1277,h_1277,c_limit/Gear-Feature-Apple_new-iphone-se-white_04152020.jpg",
+    products: "Iphone SE",
     status: "on-road",
-    bill: "1230$"
+    bill: "1200$"
   },
   {
     id: 3,
-    username: "Jon Snow",
+    username: "Ketie Perry",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    products: "Iphone X",
+      "https://bgr.com/wp-content/uploads/2021/07/apple-iphone-12-6.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
+    products: "Iphone 12",
     status: "done",
-    bill: "1230$"
+    bill: "3460$"
   },
   {
     id: 4,
-    username: "Jon Snow",
+    username: "Joshua Levingstai",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     products: "Iphone X",
     status: "canceled",
-    bill: "1230$"
+    bill: "1450$"
   },
   {
     id: 5,
-    username: "Jon Snow",
+    username: "Adam Brown",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    products: "Iphone X",
+      "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    products: "Aple AirPods",
     status: "done",
-    bill: "1230$"
+    bill: "420$"
   },
   {
     id: 6,
@@ -326,39 +326,39 @@ export const ordersRows = [
   },
   {
     id: 7,
-    username: "Jon Snow",
+    username: "Jerry White",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    products: "Iphone X",
+      "https://bgr.com/wp-content/uploads/2021/07/apple-iphone-12-6.jpg?quality=82&strip=all&w=1440&h=810&crop=1",
+    products: "Iphone 12",
     status: "canceled",
-    bill: "1230$"
+    bill: "2200$"
   },
   {
     id: 8,
     username: "Jon Snow",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     products: "Iphone X",
     status: "done",
-    bill: "1230$"
+    bill: "820$"
   },
   {
     id: 9,
-    username: "Jon Snow",
+    username: "Mullen Rysh",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://bigmag.ua/image/cache/catalog/new/kumunren/bu%20iphone/iphoneX/sg/A10A9328-500x500.jpg",
     products: "Iphone X",
     status: "done",
-    bill: "1230$"
+    bill: "1820$"
   },
   {
     id: 10,
-    username: "Jon Snow",
+    username: "Garret Paddins",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-    products: "Iphone X",
+      "https://media.wired.com/photos/5e9f56f143e5800008514457/1:1/w_1277,h_1277,c_limit/Gear-Feature-Apple_new-iphone-se-white_04152020.jpg",
+    products: "Iphone SE",
     status: "done",
-    bill: "1230$"
+    bill: "3100$"
   },
 ];
 
@@ -391,9 +391,9 @@ export const deliveryColumns =[
 export const deliveryRows = [
   {
     id: 1,
-    username: "Jon Snow",
+    username: "John Smith",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQB6em8bBiDFn_p0jcA1n1zoPk1hocoXxCG_w&usqp=CAU",
     manager: "Kettie",
     status: "on-road",
     company: "UkrPochta",
@@ -401,9 +401,9 @@ export const deliveryRows = [
   },
   {
     id: 2,
-    username: "Jon Snow",
+    username: "Mike Duglas",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://digital-photography-school.com/wp-content/uploads/2012/06/Portrait-Photography-Next-Level-04.jpg",
     manager: "Kettie",
     status: "on-road",
     company: "UkrPochta",
@@ -411,9 +411,9 @@ export const deliveryRows = [
   },
   {
     id: 3,
-    username: "Jon Snow",
+    username: "Ketie Perry",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://i.pinimg.com/originals/93/1b/4a/931b4af252790dca3a868768ac73d730.jpg",
     manager: "Kettie",
     status: "done",
     company: "UkrPochta",
@@ -421,9 +421,9 @@ export const deliveryRows = [
   },
   {
     id: 4,
-    username: "Jon Snow",
+    username: "Joshua Levingstai",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://images.ctfassets.net/u0haasspfa6q/5UyqvlWv1EOyq8IaSGk2el/f0645cd8f2a6d76457682f857d2fb186/alekzan-powell-5t5krHi1LQ8-unsplash",
     manager: "Jhon",
     status: "canceled",
     company: "NovaPochta",
@@ -431,9 +431,9 @@ export const deliveryRows = [
   },
   {
     id: 5,
-    username: "Jon Snow",
+    username: "Adam Brown",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://www.manningrivertimes.com.au/images/transform/v1/crop/frm/silverstone-feed-data/512aecc8-3720-4c14-844d-29cfd3dbface.jpg/r0_0_800_600_w800_h600_fmax.jpg",
     manager: "Kettie",
     status: "done",
     company: "NovaPochta",
@@ -441,9 +441,9 @@ export const deliveryRows = [
   },
   {
     id: 6,
-    username: "Jon Snow",
+    username: "Jerry White",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://media.istockphoto.com/photos/mature-businessman-smiling-over-white-background-picture-id685132245?k=20&m=685132245&s=612x612&w=0&h=oKxgMF_dOhoGJtd_YxhbmpK4qFvcl-0s0NFmxuh7IKA=",
     manager: "Kettie",
     status: "canceled",
     company: "UkrPochta",
@@ -451,9 +451,9 @@ export const deliveryRows = [
   },
   {
     id: 7,
-    username: "Jon Snow",
+    username: "Mullen Rysh",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://images.pexels.com/photos/5611966/pexels-photo-5611966.jpeg?cs=srgb&dl=pexels-maksim-goncharenok-5611966.jpg&fm=jpg",
     manager: "Jhon",
     status: "canceled",
     company: "UkrPochta",
@@ -461,9 +461,9 @@ export const deliveryRows = [
   },
   {
     id: 8,
-    username: "Jon Snow",
+    username: "Garret Paddins",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://img.freepik.com/premium-photo/front-view-person-with-short-hair_23-2148749599.jpg?w=2000hvdG98ZW58MHx8MHx8&w=1000&q=80",
     manager: "Jhon",
     status: "done",
     company: "NovaPochta",
@@ -471,9 +471,9 @@ export const deliveryRows = [
   },
   {
     id: 9,
-    username: "Jon Snow",
+    username: "Olga Mostarka",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+      "https://miro.medium.com/max/1080/1*jWx9suY2k3Ifq4B8A_vz9g.jpeg",
     manager: "Kettie",
     status: "done",
     company: "NovaPochta",
@@ -481,9 +481,9 @@ export const deliveryRows = [
   },
   {
     id: 10,
-    username: "Jon Snow",
+    username: "Marina Kartoshkina",
     avatar:
-      "https://images.pexels.com/photos/1152994/pexels-photo-1152994.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+        "https://img.freepik.com/free-photo/pretty-smiling-joyfully-female-with-fair-hair-dressed-casually-looking-with-satisfaction_176420-15187.jpg?w=2000",
     manager: "Jhon",
     status: "done",
     company: "NovaPochta",

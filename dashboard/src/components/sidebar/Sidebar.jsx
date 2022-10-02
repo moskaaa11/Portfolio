@@ -62,12 +62,6 @@ const Sidebar = () => {
                 </li>
                 </Link>
                 <p className="title">LINKS</p>
-                <Link to='/stats' className="link">
-                <li>
-                    <StackedLineChartIcon className="icon"/>
-                    <span>Stats</span>
-                </li>
-                </Link>
                 <Link to='/notes' className="link">
                 <li>
                     <NotificationsNoneIcon className="icon"/>

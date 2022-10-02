@@ -12,7 +12,8 @@ import {Link} from "react-router-dom";
 
 const Navbar = () => {
 
-  const  {dispatch} = useContext (DarkModeContex)
+  const  {dispatch} = useContext (DarkModeContex);
+  
 
   return (
     <div className="navbar">
@@ -24,7 +25,11 @@ const Navbar = () => {
         <div className="items">
           <div className="item">
             <LanguageIcon className="itemIcon"/>
-            English
+            <select className="select">
+              <option className="option" value="">English</option>
+              <option className="option" value="">Ukranian</option>
+              <option className="option" value="">Spanish</option>
+            </select>
           </div>
           <div className="item" onClick={()=>dispatch({type:"TOGGLE"})}>
             <DarkModeOutlinedIcon className="itemIcon"/>

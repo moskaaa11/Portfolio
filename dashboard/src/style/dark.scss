@@ -4,6 +4,15 @@
 
     .navbar {
         .wrapper {
+
+            .select {
+                color: aliceblue;
+
+                .option {
+                    color: aliceblue;
+                    background: #222;
+                }
+            }
             .items {
                 .item {
                     .link {
